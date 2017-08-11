@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin: 0em;
+  padding-top: 3.125em;
+}
+
+.navbar-toggle {
+  margin-top: 11px;
+  margin-bottom: 11px;
+
+}
+
+.navbar-default {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #1565C0;
+/*  font-size: 16.6667px;*/
+  font-weight: 300;
+/*  font-weight: 600;*/
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #1565C0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #757575;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #1565C0;
+  border-bottom: 2px solid #1565C0;
+}
+
+.navbar-nav>li>a {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.navbar-brand  {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+}
+
+.navbar {/*
+  box-shadow: 0px 1px 2px -0.5px rgba(0, 0, 0, 0.2), 0px 2px 2.5px 0px rgba(0, 0, 0, 0.14), 0px 0.5px 5px 0px rgba(0, 0, 0, 0.12);*/
+  height: 48px;
+  min-height: 48px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(43, 102, 177, 0.70), rgba(137, 211, 220, 0.70) ), url(../images/amazon-kindle-app-wireframes.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.hero h1 {
+  color: rgba(255,255,255,.70);
+}
+
+.hero p {
+  color: rgba(255,255,255,1.00);
+}
+
+#work {
+  margin-top: 1.5em;
+  padding-bottom: 3.125em;
+}
+
+#work h2 {
+  margin: 0;
+  padding-top: 91.553px;
+  padding-bottom: 37.5px;
+}
+
+#gallery {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#work img {
+  object-fit: cover;
+  width: 100%;
+  height: 13.8356em;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+}
+
+#about {
+  width: 100%;
+  background-image: none;
+  background-color: #E3F2FD;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 58.594px;
+}
+
+#content {
+  margin: 14.844px;
+}
+
+#description {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#description p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#skills {
+  width: 100%;
+  background-color: #263238;
+  padding-top: 91.553px;
+  padding-bottom: 91.553px;
+}
+
+#skills-headline {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  padding-left: 50px;
+  color: #FFFFFF;
+}
+
+#skills-list {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.skills-column p {
+  color: #FFFFFF;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact-heading {
+  padding-top: 6.25em;
+  padding-bottom: 3em;
+}
+
+#contact h2 {
+  margin: 0;
+  color: rgba(0,0,0,.87);
+}
+
+#email, #resume {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+
+a {
+  color: #1565C0;
+}
+
+#footer {
+  font-size: 0.875em;
+  width: 100%;
+  padding: 1em 2.5em;
+  background-color: #424242;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+footer a:link, footer a:visited, footer a:hover, footer a:active {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+#footer ul, menu, dir {
+  -webkit-padding-start: 0em;
+}
+
+h2 {
+}
+
+.home-heading {
+  font-weight: 400;
+  text-align: center;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  border-radius: 0.125em;
+}
+
+.btn {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.brief .container {
+  padding-top: 9em;
+  padding-bottom: 9em;
+}
+
+.center-block {
+  float:none;
+}
+
+.project-image-container {
+  width: 100%;
+}
+
+.project-image-container img {
+  width: 100%;
+}
+
+.project-image-container .col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.project-media {
+  padding-top: 63.25px;
+  padding-bottom: 63.25px;
+}
+
+iframe {
+  width: 360px;
+  height: 202.5px;
+}
+
+.project-description, .process-container, .project-testimonial {
+  background-color: #EFEBE9;
+}
+
+#mta-process-container {
+  background-color: #FFFFFF;
+}
+
+.image {
+  width: 100%;
+  height: 202.5px;
+}
+
+.image img {
+  width: 360px;
+  height: 202.5px;
+  object-fit: cover;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.project-description, .project-testimonial, .project-request {
+  width: 100%;
+  padding-top: 63.188px;
+  padding-bottom: 63.188px;
+}
+
+.project-request {
+  background-color: #1565C0;
+}
+
+.prototype {
+  width: 100%;
+}
+
+b {
+  color: #1565C0;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+h1:first-child {
+    margin-top: -6.5px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.display_caption_white {
+  color:rgba(255,255,255,0.70)
+}
+
+.project-description-row {
+  margin-bottom: 35px;
+}
+
+.project-title {
+  color: #1565C0;
+}
+
+.description-info {
+  margin-bottom: 20px;
+}
+
+.description-heading {
+  color: #1565C0
+}
+
+.process-row {
+  margin-top: 60px;
+  margin bottom: 60px;
+  float: left;
+}
+
+.process, .image {
+  margin-bottom: 35px;
+}
+
+.process-headline {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.process-description {
+  margin-bottom: 20px;
+}
+
+.testimonial-row {
+  margin-bottom: 35px;
+}
+
+.testimonial-quote {
+  margin-bottom: 40px;
+}
+
+.request-row {
+  margin-bottom: 35px;
+}
+
+.request-heading { 
+  margin-bottom: 40px;
+}
+
+/* For Tablet & Desktop Devices */
+
+@media only screen and (min-width: 670px) {
+	iframe {
+	  width: 640px;
+	  height: 360px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+  #about {
+    background-image: url("../images/photo.png");
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .visible-md-block {
+      display: block!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #skills-headline {
+    text-align: center;
+  }
+
+  #about {
+    background-image: none;
+  }
+}
+
+.CTA {
+  background: #1565C0;
+  border: 2px solid rgb(21,101,192);
+  padding: 6px 35.5px;
+/*  border-radius: 2.5px;*/
+  color: #FFFFFF;
+  position: relative;
+  height: 36px;
+  margin: 0;
+/*  min-width: 64px;*/
+/*  padding: 6px 37.5px;*/
+  display: inline-block; 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.CTA:hover {
+  border: 2px solid rgba(0,0,0,0.40);
+  padding: 6px 35.5px;
+  /*box-shadow: 0 0 1px 0 rgba(0,0,0,0.11), 0 1px 1px 0 rgba(0,0,0,0.26);*/
+}
+
+.CTA:active {
+  background: #0D47A1;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.11), 0 4px 4px 0 rgba(0,0,0,0.26);
+}
